@@ -4,7 +4,83 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+            integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+            crossorigin="anonymous"
+        />
+        <link
+            href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&amp;display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css">
         <title>Porfolio</title>
     </head>
-    <body></body>
+    <nav id="navbar" class="nav">
+        <ul class="nav-list">
+          <li>
+            <a href="#welcome-section">About</a>
+          </li>
+           <li>
+            <a href="#projects">Work</a>
+          </li>
+           <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <section id="welcome-section" class="welcome-section">
+        <h1>Hey I am <span id="fname">Varbie Sumido </span></h1>
+        <p>a quality assurance tester</p>
+      </section>
+      <section id="projects" class="projects-section">
+        <h2 class="projects-section-header">These are some of my projects</h2>
+        <div class="projects-grid">
+         <a href="https://recipe-app-part2.bubbleapps.io/version-test" target="_blank" class="project project-tile">
+          <img class="project-image" src="assets/recipe.JPG" alt="project">
+          <p class="project-title">
+            <span class="code">&lt;</span>
+            Dessert Book
+            <span class="code">&gt;</span>
+          </p>
+        </a>
+          <a href="https://shoppee-site-app.bubbleapps.io/version-test/" target="_blank" class="project project-tile">
+          <img class="project-image" src="assets/shappy.JPG" alt="project">
+          <p class="project-title">
+            <span class="code">&lt;</span>
+            Shappy
+            <span class="code">&gt;</span>
+          </p>
+        </a>
+          <a href="https://ezjob.bubbleapps.io/version-test/" target="_blank" class="project project-tile">
+          <img class="project-image" src="assets/EZJob.JPG" alt="project">
+          <p class="project-title">
+            <span class="code">&lt;</span>
+            EZJob
+            <span class="code">&gt;</span>
+          </p>
+        </a>
+          <a href="https://github.com/ufwahua/Silingan" target="_blank" class="project project-tile">
+          <img class="project-image" src="assets/silingan.png" alt="project">
+          <p class="project-title">
+            <span class="code">&lt;</span>
+            Silingan
+            <span class="code">&gt;</span>
+          </p>
+        </a>
+        </div>
+      </section>
+        <section id="contact" class="contact-section">
+          <div class="contact-section-header">
+            <h2>Let's work together...</h2>
+            <p>How do you take your coffee?</p>
+          </div>
+          <div class="contact-links">
+        <a id="profile-link" href="https://github.com/varbs" target="_blank" class="btn contact-details"><i class="fab fa-github"></i> GitHub</a>
+        <a href="varbiesumido@gmail.com" class="btn contact-details"><i class="fas fa-at"></i> Send a mail</a>
+        <a href="tel:0932-372-0268" class="btn contact-details"><i class="fas fa-mobile-alt"></i> Call me</a>
+      </div>
+        </section>
+    </body>
 </html>
